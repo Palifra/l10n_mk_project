@@ -1,0 +1,4 @@
+translation_log.txt
+i18n/scan_results/
+*.pyc
+__pycache__/
