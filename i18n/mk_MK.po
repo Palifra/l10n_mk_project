@@ -409,7 +409,7 @@ msgstr "<small class=\"text-end\">Фаза:</small>"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
 msgid "<small class=\"text-muted\">Assignees</small>"
-msgstr "<small class=\"text-muted\">Приматели</small>"
+msgstr "<small class=\"text-muted\">Одговорни</small>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
@@ -570,7 +570,7 @@ msgstr "Приватна задача не може да има родител."
 #. module: project
 #: model:ir.model.constraint,message:project.constraint_project_task_recurring_task_has_no_parent
 msgid "A subtask cannot be recurrent."
-msgstr "Поднадача не може да биде повторлива."
+msgstr "Подзадача не може да биде повторлива."
 
 #. module: project
 #: model:ir.model.constraint,message:project.constraint_project_tags_name_uniq
@@ -673,13 +673,13 @@ msgstr "Додај прекретница"
 #. odoo-javascript
 #: code:addons/project/static/src/components/subtask_kanban_list/subtask_kanban_create/subtask_kanban_create.js:0
 msgid "Add Sub-tasks"
-msgstr "Додај под-задачи"
+msgstr "Додај подзадачи"
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Add a sub-task"
-msgstr "Додај потзадача"
+msgstr "Додај подзадача"
 
 #. module: project
 #. odoo-javascript
@@ -953,12 +953,12 @@ msgstr "Доделено на"
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_tree
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_fsm_base
 msgid "Assignees"
-msgstr "Приматели"
+msgstr "Одговорни"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Assignement Date"
-msgstr "Датум на задача"
+msgstr "Датум на доделување"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__date_assign
@@ -969,7 +969,7 @@ msgstr "Датум на доделување"
 #: model:ir.model.fields,field_description:project.field_project_task_burndown_chart_report__date_assign
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__date_assign
 msgid "Assignment Date"
-msgstr "Датум на задачата"
+msgstr "Датум на доделување"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__last_update_status__at_risk
@@ -1209,7 +1209,7 @@ msgstr "Мислење на клиент"
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Close the sub-tasks list"
-msgstr "Затвори ја листата со потзадачи"
+msgstr "Затвори ја листата со подзадачи"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__closed_depend_on_count
@@ -1368,7 +1368,7 @@ msgstr "Претвори задача"
 #: code:addons/project/models/project_task.py:0
 #: model:ir.actions.server,name:project.action_server_convert_to_subtask
 msgid "Convert to Task/Sub-Task"
-msgstr "Претвори во задача/подозадача"
+msgstr "Претвори во задача/подзадача"
 
 #. module: project
 #. odoo-javascript
@@ -1420,7 +1420,7 @@ msgstr "Креирајте нова фаза во цевководот за за
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "Create a new sub-task"
-msgstr "Креирајте нова под-задача"
+msgstr "Креирајте нова подзадача"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified_footer
@@ -1860,7 +1860,7 @@ msgstr "Прикажи име"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Display the sub-task in your pipeline"
-msgstr "Прикажете ја под-задачата во вашиот процес"
+msgstr "Прикажете ја подзадачата во вашиот процес"
 
 #. module: project
 #. odoo-python
@@ -2240,7 +2240,7 @@ msgstr "Скриј затворени задачи"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Hide the sub-task in your pipeline"
-msgstr "Скриј ја под-задачата во твојот пајплајн"
+msgstr "Скриј ја подзадачата во твојот пајплајн"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__priority__1
@@ -2823,7 +2823,7 @@ msgstr "Пораки"
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Milestone"
-msgstr "Клучна точка"
+msgstr "Прекретница"
 
 #. module: project
 #. odoo-javascript
@@ -2833,7 +2833,7 @@ msgstr "Клучна точка"
 #: model:ir.model.fields,field_description:project.field_res_config_settings__group_project_milestone
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 msgid "Milestones"
-msgstr "Клучни моменти"
+msgstr "Прекретници"
 
 #. module: project
 #. odoo-javascript
@@ -3023,7 +3023,7 @@ msgstr "Нема клиент"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Milestone"
-msgstr "Ниту еден пресек"
+msgstr "Без прекретница"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
@@ -3364,12 +3364,12 @@ msgstr "Процент на задоволни оценки"
 #: model_terms:ir.ui.view,arch_db:project.view_task_calendar
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Personal Stage"
-msgstr "Лична сцена"
+msgstr "Лична фаза"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__personal_stage_id
 msgid "Personal Stage State"
-msgstr "Лична сцена, состојба"
+msgstr "Состојба на лична фаза"
 
 #. module: project
 #: model:ir.model,name:project.model_project_task_stage_personal
@@ -3561,7 +3561,7 @@ msgstr "Чаробњак за споделување на проекти и со
 #. module: project
 #: model:ir.actions.act_window,name:project.project_sharing_project_task_recurring_tasks_action
 msgid "Project Sharing Recurrence"
-msgstr "Проектен рецидив на споделување"
+msgstr "Повторување на споделување на проект"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
@@ -3943,7 +3943,7 @@ msgstr "Повтори секој"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__repeat_unit
 msgid "Repeat Unit"
-msgstr "Повторување на единицата"
+msgstr "Единица на повторување"
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_report
@@ -4067,7 +4067,7 @@ msgstr "Ажурирање на пребарувањето"
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Assignees"
-msgstr "Пребарај во примателите"
+msgstr "Пребарај по одговорни"
 
 #. module: project
 #. odoo-python
@@ -4079,13 +4079,13 @@ msgstr "Пребарај во клиент"
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Milestone"
-msgstr "Пребарај во Милстоун"
+msgstr "Пребарај во прекретница"
 
 #. module: project
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Priority"
-msgstr "Пребарување во приоритет"
+msgstr "Пребарај по приоритет"
 
 #. module: project
 #. odoo-python
@@ -4322,7 +4322,7 @@ msgstr "Спринт во тек"
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Stage"
-msgstr "Сцена"
+msgstr "Фаза"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_task_burndown_chart_report_view_search
@@ -4332,17 +4332,17 @@ msgstr "Фаза (Графикон на опаѓање)"
 #. module: project
 #: model:mail.message.subtype,name:project.mt_task_stage
 msgid "Stage Changed"
-msgstr "Сцената се смени"
+msgstr "Фазата се смени"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__user_id
 msgid "Stage Owner"
-msgstr "Сопственик на сцена"
+msgstr "Сопственик на фаза"
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_stage
 msgid "Stage changed"
-msgstr "Сцената се смени"
+msgstr "Фазата се смени"
 
 #. module: project
 #. odoo-python
@@ -4417,7 +4417,7 @@ msgstr "Време на статус"
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Sub-tasks"
-msgstr "Позадачи"
+msgstr "Подзадачи"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_form_project
@@ -4693,7 +4693,7 @@ msgstr "Дијаграмот на опаѓање мора да биде груп
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__personal_stage_id
 msgid "The current user's personal stage."
-msgstr "Личната сцена на тековниот корисник."
+msgstr "Личната фаза на тековниот корисник."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__personal_stage_type_id
@@ -5441,7 +5441,7 @@ msgstr "Работни часови за доделување"
 #: model:ir.model.fields,field_description:project.field_project_task__working_hours_close
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__working_hours_close
 msgid "Working Hours to Close"
-msgstr "Работно време до затворање"
+msgstr "Работни часови до затворање"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -5518,7 +5518,7 @@ msgstr "Можете да ја промените состојбата на по
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "You can only set a personal stage on a private task."
-msgstr "Можете да поставите лична сцена само на приватна задача."
+msgstr "Можете да поставите лична фаза само на приватна задача."
 
 #. module: project
 #. odoo-javascript
@@ -5806,7 +5806,7 @@ msgstr "да ја означи задачата како завршена."
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_task_name_with_subtask_count_char_field/project_task_name_with_subtask_count_char_field.xml:0
 msgid "sub-tasks)"
-msgstr "подначасти)"
+msgstr "подзадачи)"
 
 #. module: project
 #. odoo-python

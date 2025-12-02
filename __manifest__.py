@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'North Macedonia - Project Translations',
+    'name': 'Macedonia - Project Translations',
     'version': '1.0',
     'category': 'Accounting/Localizations/Translations',
     'summary': 'Macedonian translations for Project Management module',
